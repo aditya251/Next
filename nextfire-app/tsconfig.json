@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "pages/_app.js", "components/navbar.js", "lib/firebase.js", "pages/index.js", "pages/enter.js", "lib/hooks.js", "pages/[username]/[slug].js", "pages/[username]/index.js", "pages/admin/index.js", "pages/admin/[slug].js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
